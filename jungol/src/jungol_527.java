@@ -8,6 +8,7 @@ public class jungol_527 {
         a = scanner.nextInt();
         b = scanner.nextInt();
 
-        System.out.println(a / b + " " + Math.round((double) a / b * 100.0) / 100.0);
+        System.out.printf("%d ", a/ b);
+        System.out.printf("%.2f", (double)a / b);
     }
 }
