@@ -75,7 +75,6 @@ class Ex4_3 {
 }
 
 class Ex4_4 {
-
   static void ex4_4Answer() {
     int sum = 0, start = 1, sign = 1;
     while (true) {
@@ -123,8 +122,7 @@ class Ex4_6 {
 }
 
 class Ex4_7 {
-
-  static void ex4_7Answer() {
+  void ex4_7Answer() {
     String str = "12345";
     int sum = 0;
 
@@ -178,6 +176,10 @@ class Ex4_10 {
         System.out.println("맞혔습니다.");
         System.out.println("시도횟수는 " + count + "번입니다.");
         break;
+      } else if(input > answer) {
+        System.out.println("");
+      } else {
+
       }
     } while (true);
   }
@@ -212,7 +214,8 @@ public class JavaJungsuk {
           Ex4_6.ex4_6Answer();
           break;
         case 7:
-          Ex4_7.ex4_7Answer();
+          Ex4_7 ex = new Ex4_7();
+          ex.ex4_7Answer();
           break;
         case 8:
           Ex4_8.ex4_8Answer();
